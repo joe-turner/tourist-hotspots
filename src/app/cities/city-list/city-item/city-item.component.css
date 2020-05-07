@@ -1,0 +1,17 @@
+.card:hover {
+  border-color: deepskyblue;
+}
+
+.card-image-container {
+  flex: 0 0 150px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card-body  {
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+

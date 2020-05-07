@@ -1,0 +1,12 @@
+<div class="card">
+  <div class="card-image-container">
+    <img [src]="city.imageUrl" class="card-img-top img-fluid" [alt]="city.name">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">{{ city.name }}</h5>
+    <p class="card-text">{{ city.shortDescription }}</p>
+    <p class="card-text">{{ city.longDescription }}</p>
+    <a routerLink="/cities" class="card-link btn btn-primary">Collapse</a>
+    <a routerLink="edit" class="card-link btn btn-secondary">Edit</a>
+  </div>
+</div>

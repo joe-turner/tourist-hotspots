@@ -1,0 +1,7 @@
+<div class="row">
+  <app-city-item
+    [city]="item.value"
+    *ngFor="let item of (citiesState | async).cityList | keyvalue"
+    class="m-1 d-flex city-item" (click)="onView(item.key)">
+  </app-city-item>
+</div>

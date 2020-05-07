@@ -1,0 +1,17 @@
+:host {
+  flex: 0 0 auto;
+  max-width: 800px;
+}
+
+.card-image-container {
+  flex: 0 0 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card-body  {
+  flex: 0 0 auto;
+  overflow: hidden;
+}
